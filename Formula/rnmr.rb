@@ -1,12 +1,14 @@
 class Rnmr < Formula
   desc "Lightweight command-line tool for renaming files and directories"
   homepage "https://github.com/moealkurdi/rnmr"
-  url "https://github.com/moealkurdi/homebrew-rnmr/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "178f476ba5d91f91976413540f8c272c0962ec4df465674a76e99cdd38f47167"
+  url "https://github.com/moealkurdi/homebrew-rnmr/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "1d86c17734ee954f994d529b5e00ee8587a9d834a58db3380f0743fc4214af9b"
   license "MIT"
 
+  depends_on "python@3.12"
+
   def install
-    bin.install "rnmr.py" => "rnmr"
+    virtualenv_install_with_resources
   end
 
   test do
