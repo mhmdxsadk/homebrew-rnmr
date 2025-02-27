@@ -7,7 +7,7 @@
 Install using Homebrew:
 
 ```bash
-brew install moealkurdi/rnmr/rnmr
+brew install mhmdxsadk/rnmr/rnmr
 ```
 
 ## Usage
