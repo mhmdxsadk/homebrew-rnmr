@@ -1,4 +1,4 @@
-class rnmr < Formula
+class Rnmr < Formula
   desc "Lightweight command-line tool for renaming files and directories"
   homepage "https://github.com/mhmdxsadk/rnmr"
   url "https://github.com/mhmdxsadk/homebrew-rnmr/archive/refs/tags/v1.0.2.tar.gz"
