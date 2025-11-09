@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "Muhammed Sadik", email = "50425929+mhmdxsadk@users.noreply.github.com" }
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 dependencies = [
     "click>=8.3.0",
     "colorama>=0.4.6",
