@@ -7,7 +7,8 @@
 Install using Homebrew:
 
 ```bash
-brew install mhmdxsadk/rnmr/rnmr
+brew tap mhmdxsadk/tools
+brew install rnmr
 ```
 
 ## Usage
