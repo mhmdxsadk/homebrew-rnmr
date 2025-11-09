@@ -16,3 +16,4 @@ class Rnmr < Formula
     assert_equal "content", (testpath/"y.txt").read.strip
   end
 end
+
