@@ -1,6 +1,6 @@
 [project]
 name = "rnmr"
-version = "1.0.4"
+version = "1.0.6"
 description = "Lightweight CLI tool for safely renaming files and directories."
 readme = "README.md"
 authors = [
@@ -16,5 +16,5 @@ dependencies = [
 rnmr = "rnmr.cli:RNMR.rename"
 
 [build-system]
-requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
